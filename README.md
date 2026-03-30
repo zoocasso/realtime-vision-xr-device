@@ -18,9 +18,9 @@
 3. **XR 최적화:** 착용형 기기에서 지연 시간(Latency)을 최소화하여 이질감 없는 실시간 시각 피드백을 제공합니다.
 
 ## 🛠 기술 스택 (Tech Stack)
-* **Language:** (예: Python, C++)
-* **Library:** (예: OpenCV, PyTorch)
-* **Hardware:** XR Device, (예: Jetson Nano, Raspberry Pi 등)
+* **Language:** (예: Python, C++, C#)
+* **Library:** (예: OpenCV, Unity)
+* **Hardware:** XR Device, (예: Metalens2)
 
 ---
 
