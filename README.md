@@ -25,7 +25,7 @@ An end-to-end XR vision enhancement pipeline that addresses two critical failure
 
 ### ✨ Key Contributions
 
-- **Fourier peplography for Dehazing** — Implemented a physics-based image recovery algorithm that leverages spatial-frequency synthesis to remove scattering artifacts caused by atmospheric haze.
+- **Fourier Peplography for Dehazing** — Implemented a physics-based image recovery algorithm that leverages spatial-frequency synthesis to remove scattering artifacts caused by atmospheric haze.
 - **Photon Counting for Low-Light Recovery** — Built a photon-counting pipeline that reconstructs usable imagery from photon-starved sensor input, enabling object recognition in near-dark environments.
 - **Real-Time Embedded Deployment** — Ported the C++ core into a Unity-loadable DLL targeting ARM64, keeping end-to-end latency low enough for XR headset use without perceptible motion-to-photon lag.
 
@@ -33,7 +33,7 @@ An end-to-end XR vision enhancement pipeline that addresses two critical failure
 
 | Layer | Technology |
 |---|---|
-| **Algorithms** | Fourier peplography, Photon Counting |
+| **Algorithms** | Fourier Peplography, Photon Counting |
 | **Core** | C++ (cross-compiled to ARM64) |
 | **Integration** | Unity (C# ↔ native DLL) |
 | **Hardware** | Metalens 2 XR Headset |
