@@ -25,7 +25,7 @@ An end-to-end XR vision enhancement pipeline that addresses two critical failure
 
 ### ✨ Key Contributions
 
-- **Fourier Ptychography for Dehazing** — Implemented a physics-based image recovery algorithm that leverages spatial-frequency synthesis to remove scattering artifacts caused by atmospheric haze.
+- **Fourier peplography for Dehazing** — Implemented a physics-based image recovery algorithm that leverages spatial-frequency synthesis to remove scattering artifacts caused by atmospheric haze.
 - **Photon Counting for Low-Light Recovery** — Built a photon-counting pipeline that reconstructs usable imagery from photon-starved sensor input, enabling object recognition in near-dark environments.
 - **Real-Time Embedded Deployment** — Ported the C++ core into a Unity-loadable DLL targeting ARM64, keeping end-to-end latency low enough for XR headset use without perceptible motion-to-photon lag.
 
@@ -33,7 +33,7 @@ An end-to-end XR vision enhancement pipeline that addresses two critical failure
 
 | Layer | Technology |
 |---|---|
-| **Algorithms** | Fourier Ptychography, Photon Counting |
+| **Algorithms** | Fourier peplography, Photon Counting |
 | **Core** | C++ (cross-compiled to ARM64) |
 | **Integration** | Unity (C# ↔ native DLL) |
 | **Hardware** | Metalens 2 XR Headset |
@@ -60,7 +60,7 @@ Delivered a working prototype at the Makerthon showcase, demonstrating live deha
 
 ### ✨ 주요 기여
 
-- **Fourier Ptychography 기반 안개 제거** — 공간 주파수 합성을 활용한 물리 기반 영상 복원 알고리즘을 구현하여 대기 산란으로 인한 이미지 손실을 복원했습니다.
+- **Fourier peplography 기반 안개 제거** — 공간 주파수 합성을 활용한 물리 기반 영상 복원 알고리즘을 구현하여 대기 산란으로 인한 이미지 손실을 복원했습니다.
 - **Photon Counting 기반 저조도 복원** — 광자 부족 환경의 센서 입력으로부터 사용 가능한 영상을 재구성하는 광자 계수 파이프라인을 구축하여 암조도에서도 사물 식별이 가능하도록 했습니다.
 - **실시간 임베디드 배포** — C++ 코어를 ARM64 타겟 Unity 네이티브 DLL로 포팅하여, XR 헤드셋에서 motion-to-photon 지연을 체감할 수 없는 수준으로 유지했습니다.
 
@@ -68,7 +68,7 @@ Delivered a working prototype at the Makerthon showcase, demonstrating live deha
 
 | 계층 | 기술 |
 |---|---|
-| **알고리즘** | Fourier Ptychography, Photon Counting |
+| **알고리즘** | Fourier peplography, Photon Counting |
 | **코어** | C++ (ARM64 크로스 컴파일) |
 | **연동** | Unity (C# ↔ native DLL) |
 | **하드웨어** | Metalens 2 XR Headset |
