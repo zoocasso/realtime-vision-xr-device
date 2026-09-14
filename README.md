@@ -2,7 +2,7 @@
 
 # 🥽 Real-Time Vision Enhancement for XR Headset
 
-**2024 Pangyo XR Device Makerthon — Sole Developer**
+**2024 Pangyo XR Device Makerthon — Team Lead (5-person laboratory team)**
 
 [![EN](https://img.shields.io/badge/Language-English-blue?style=flat-square)](#-english)
 [![KR](https://img.shields.io/badge/언어-한국어-red?style=flat-square)](#-한국어)
@@ -20,7 +20,7 @@ A wearable real-time vision enhancement system for the **Metalens 2 XR headset**
 An end-to-end XR vision enhancement pipeline that addresses two critical failure modes of outdoor wearable displays: atmospheric scattering (fog) and photon starvation (low-light). The system targets disaster response, nighttime driving, and industrial inspection scenarios where visual impairment directly affects user safety.
 
 - **Event:** 2024 Pangyo XR Device Makerthon
-- **Role:** Sole developer — concept, algorithm implementation, C++/Unity integration, on-stage presentation
+- **Role:** Team lead of a five-person laboratory team — concept, task allocation, core algorithm implementation, C++/Unity integration, on-stage presentation
 - **Target Device:** Metalens 2 XR Headset (ARM64)
 
 ### ✨ Key Contributions
@@ -55,7 +55,7 @@ Delivered a working prototype at the Makerthon showcase, demonstrating live deha
 야외용 웨어러블 디스플레이의 두 가지 치명적 한계 — 대기 산란(안개)과 광자 부족(저조도) — 을 해결하는 end-to-end XR 시각 개선 파이프라인입니다. 시각 손상이 사용자 안전에 직결되는 재난 대응, 야간 주행, 산업 검사 환경을 타겟으로 합니다.
 
 - **행사:** 2024 판교 XR Device 메이커톤
-- **역할:** 1인 개발 — 기획, 알고리즘 구현, C++/Unity 연동, 현장 발표
+- **역할:** 연구실 5인 팀 리드 — 기획, 역할 분담, 핵심 알고리즘 구현, C++/Unity 연동, 현장 발표
 - **타겟 하드웨어:** Metalens 2 XR Headset (ARM64)
 
 ### ✨ 주요 기여
