@@ -29,6 +29,10 @@ Fog removal and low-light recovery on the Metalens 2 XR headset: two published i
 - **An Android native plugin inside a Unity app.** The code was built as a `.so` for arm64-v8a and loaded by a Unity (IL2CPP) app that reads the headset camera and shows the result on the headset display.
 - **Only the headset's own camera.** No extra sensors or light sources: each frame of the camera feed is processed on the device.
 
+<img src="docs/headset-demo.gif" alt="Screen recording from the headset, left eye: a hand presses the app's buttons; a dark room turns into a noisy but visible image with photon counting, and a fogged water tank becomes clearer with Fourier peplography" width="480">
+
+<sub>A screen recording from the headset (left eye): the app's buttons, pressed by hand, switch on photon counting in a dark room and Fourier peplography on a fogged water tank. The frame rate was not measured.</sub>
+
 How the two methods work:
 
 - **Fog and smoke (Fourier peplography):** the frame is Fourier-transformed, a filter attenuates the low-frequency part that the scattering medium adds, and the inverse transform gives the clearer image.
