@@ -10,27 +10,11 @@ Fog removal and low-light recovery on the Metalens 2 XR headset: two published i
 
 <sub>Captures from the headset, taken through the device SDK (left eye only): the camera feed, then the processed frame. The frame rate was not measured.</sub>
 
-```mermaid
-flowchart LR
-    cam["Headset camera<br/>Metalens 2"]:::ext
-    subgraph app["Unity app · IL2CPP"]
-        plugin["Native plugin .so<br/>arm64-v8a<br/>C++ / OpenCV 3.4.16"]:::mine
-    end
-    disp["Headset display<br/>on-stage demo"]:::ext
-    methods["Fourier peplography,<br/>photon counting:<br/>published methods,<br/>Prof. Myungjin Cho"]:::other
-    cam -->|"camera frames"| plugin
-    plugin -->|"enhanced frames"| disp
-    methods -.->|"implemented in C++"| plugin
-    classDef mine fill:#EEF2FF,stroke:#2450F0,stroke-width:2px,color:#0B0D12
-    classDef other fill:#F1F2F5,stroke:#7A8394,stroke-width:1.5px,stroke-dasharray:5 4,color:#3F4654
-    classDef ext fill:#FFFFFF,stroke:#CBD1DA,stroke-width:1px,color:#3F4654
-```
+<img src="docs/diagram.png" alt="Headset camera frames go through the native C++/OpenCV plugin inside the Unity app to the headset display" width="780">
 
 <sub>Solid blue: my work · grey dashed: others' work (published methods) · white: device.</sub>
 
-## At a glance
-
-| | |
+| At&nbsp;a&nbsp;glance | |
 | :--- | :--- |
 | **What** | Fog and smoke removal (Fourier peplography) and low-light recovery (photon counting) on the headset's own camera feed |
 | **My part** | All of the development: the C++/OpenCV implementation, the Android native build and the Unity integration. Also the presentation and the on-stage demo |

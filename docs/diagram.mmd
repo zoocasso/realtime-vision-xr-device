@@ -1,0 +1,13 @@
+flowchart LR
+    cam["Headset camera<br/>Metalens 2"]:::ext
+    subgraph app["Unity app · IL2CPP"]
+        plugin["Native plugin .so<br/>arm64-v8a<br/>C++ / OpenCV 3.4.16"]:::mine
+    end
+    disp["Headset display<br/>on-stage demo"]:::ext
+    methods["Fourier peplography,<br/>photon counting:<br/>published methods,<br/>Prof. Myungjin Cho"]:::other
+    cam -->|"camera frames"| plugin
+    plugin -->|"enhanced frames"| disp
+    methods -.->|"implemented in C++"| plugin
+    classDef mine fill:#EEF2FF,stroke:#2450F0,stroke-width:2px,color:#0B0D12
+    classDef other fill:#F1F2F5,stroke:#7A8394,stroke-width:1.5px,stroke-dasharray:5 4,color:#3F4654
+    classDef ext fill:#FFFFFF,stroke:#CBD1DA,stroke-width:1px,color:#3F4654
