@@ -54,7 +54,7 @@ Still frames taken through the device SDK (left eye only).
 
 ## The event
 
-- **Event:** 2024 XR Device Content Makerthon & Ideathon, Makerthon track, finals at the Pangyo Metaverse Hub, 21–22 November 2024. Teams built content for the Metalens 2 headset.
+- **Event:** 2024 XR Device Content Makerthon & Ideathon, Makerthon track, finals at the Pangyo Metaverse Hub, November 2024. Teams built content for the Metalens 2 headset.
 - **Team:** 3DOS. Five members of my undergraduate lab (3D Image Processing Systems Lab, Hankyong National University) were registered as the team; I did all of the development and gave the presentation and the on-stage demo.
 - **This repository:** this summary and the slide pages with my own work. The source code was lost, so it is not included.
 
@@ -69,4 +69,4 @@ Still frames taken through the device SDK (left eye only).
 
 <img src="docs/on-stage.jpg" alt="Presenting the title slide, Real-time Vision Enhancement Device by 3DOS, at the lectern of the finals stage" width="600">
 
-<sub>The presentation at the finals, 22 November 2024.</sub>
+<sub>The presentation at the finals, November 2024.</sub>
