@@ -59,5 +59,7 @@ Uses proposed in the presentation: fire scenes, foggy roads, dark outdoor work s
 
 ## On stage
 
-![presentation](https://github.com/user-attachments/assets/11857cb3-2bbd-4760-a4e6-666ee1d7af74)
+<img src="docs/on-stage.jpg" alt="Presenting the title slide, Real-time Vision Enhancement Device by 3DOS, at the lectern of the finals stage" width="600">
+
+<sub>The presentation at the finals, 22 November 2024.</sub>
 
