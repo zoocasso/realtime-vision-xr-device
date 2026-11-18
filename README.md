@@ -1,6 +1,6 @@
 # Vision Enhancement for an XR Headset
 
-**2024 XR Device Content Makerthon & Ideathon (Pangyo, Nov 2024) — team 3DOS, sole developer and on-stage demo. The code was lost; this repository holds a summary, headset captures and the slide pages with my own work.**
+**2024 XR Device Content Makerthon & Ideathon (Pangyo, Nov 2024) — team 3DOS; I owned all development and the on-stage demo. The code was lost; this repository holds a summary, headset captures and the slide pages with my own work.**
 
 Two published imaging methods from Prof. Myungjin Cho's research, Fourier peplography for fog and photon counting for low light, ported to C++/OpenCV as an Android native plugin for a Unity app and run live on the Metalens 2 headset's own camera.
 
