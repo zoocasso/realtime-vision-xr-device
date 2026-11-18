@@ -6,9 +6,9 @@ Fog removal and low-light recovery on the Metalens 2 XR headset: two published i
 
 **Write-up:** listed under other work on the site ([English](https://zoocasso.github.io/en/work/) · [한국어](https://zoocasso.github.io/work/))
 
-<img src="docs/headset-before-after.gif" alt="Headset captures switching between the camera feed and the processed result: light fog and Fourier peplography, lights off and photon counting" width="820">
+<img src="docs/headset-before-after.webp" alt="Headset captures with a moving divider: the camera feed on its left, the processed frame on its right. Light fog and Fourier peplography, then lights off and photon counting" width="820">
 
-<sub>Captures from the headset, taken through the device SDK (left eye only): the camera feed, then the processed frame. The frame rate was not measured.</sub>
+<sub>Captures from the headset, taken through the device SDK (left eye only). Left of the divider is the camera feed, right of it the processed frame; the captures themselves are not edited. With the lights off the camera feed is almost black. The frame rate was not measured.</sub>
 
 <img src="docs/diagram.png" alt="Headset camera frames go through the native C++/OpenCV plugin inside the Unity app to the headset display" width="780">
 
@@ -29,9 +29,9 @@ Fog removal and low-light recovery on the Metalens 2 XR headset: two published i
 - **An Android native plugin inside a Unity app.** The code was built as a `.so` for arm64-v8a and loaded by a Unity (IL2CPP) app that reads the headset camera and shows the result on the headset display.
 - **Only the headset's own camera.** No extra sensors or light sources: each frame of the camera feed is processed on the device.
 
-<img src="docs/headset-demo.gif" alt="Screen recording from the headset, left eye: a hand presses the app's buttons; a dark room turns into a noisy but visible image with photon counting, and a fogged water tank becomes clearer with Fourier peplography" width="480">
+<img src="docs/headset-demo.webp" alt="Screen recording from the headset, left eye: a hand presses the app's buttons; a dark room turns into a noisy but visible image with photon counting, and a fogged water tank becomes clearer with Fourier peplography" width="720">
 
-<sub>A screen recording from the headset (left eye): the app's buttons, pressed by hand, switch on photon counting in a dark room and Fourier peplography on a fogged water tank. The frame rate was not measured.</sub>
+<sub>A screen recording from the headset (left eye): the app's buttons, pressed by hand, switch on photon counting in a dark room and Fourier peplography on a fogged water tank. The stretches before each button press play at 2× speed; the frames are not edited. The frame rate was not measured.</sub>
 
 How the two methods work:
 
